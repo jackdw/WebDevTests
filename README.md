@@ -13,5 +13,7 @@ A collection of test projects completed during my own time outside of work; for 
   page (the max supported by GitHub). See the code for
   my implementation details (GitHubAPISearch action)
   regarding pagination.
+- No third party tools, or libraries, are used for managing
+  API connections.
   
 JDW
