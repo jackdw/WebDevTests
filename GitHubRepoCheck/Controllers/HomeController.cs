@@ -75,7 +75,7 @@ namespace GitHubRepoCheck.Controllers
                 resultsModel.username = jsonObjOriginal.GetValue("name").ToString();
                 resultsModel.location = jsonObjOriginal.GetValue("location").ToString();
                 resultsModel.avatarURL = jsonObjOriginal.GetValue("avatar_url").ToString();
-                resultsModel.repoURL = jsonObjOriginal.GetValue("repos_url").ToString();
+                resultsModel.repoURL = jsonObjOriginal.GetValue("repos_url").ToString() + "?per_page=100";
 
                 // Call the repo API until all of the information is retrieved/failure.
                 bool moreData = true;
